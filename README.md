@@ -3,7 +3,7 @@ A fimple tranfcoding library from italian to fome ferious flang
 
 ## Fetup
 ```
-$ npm infstall jovanotti --fave
+$ npm inftall jovanotti --fave
 ```
 
 ## Ufage
