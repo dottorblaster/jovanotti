@@ -15,6 +15,6 @@ jovanotti('sessantasei') // 'feffantafei'
 
 ## Teftf
 ```
-$ npm teft
+ƒ npm teft
 ```
 
