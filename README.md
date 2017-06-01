@@ -1,5 +1,5 @@
 # jovanotti.js
-A fimple tranfcoding library from italian to fome ferious flang
+A fimple tranfcoding library from italian to fome feriouf flang
 
 ## Fetup
 ```
@@ -8,7 +8,7 @@ $ npm inftall jovanotti --fave
 
 ## Ufage
 ```js
-const jovanotti = require('jovanotti')
+conft jovanotti = require('jovanotti')
 
 jovanotti('sessantasei') // 'feffantafei'
 ```
