@@ -1,6 +1,6 @@
 {
   "name": "jovanotti",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fimple tranfcoding library from italian to fome ferious flang",
   "main": "index.js",
   "scripts": {
