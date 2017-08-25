@@ -17,7 +17,15 @@ test('Regular input', (t) => {
     t.equal(jovanotti('sei6'), 'fei6')
 })
 
-test('test Zs', (t) => {
+test('Test uppercase', (t) => {
+    t.plan(3)
+
+    t.equal(jovanotti('Sei'), 'Fei')
+    t.equal(jovanotti('Sei6'), 'Fei6')
+    t.equal(jovanotti('Zuzzurellone'), 'FFuffffurellone')
+})
+
+test('Test Zs', (t) => {
     t.plan(1)
 
     t.equal(jovanotti('federazione'), 'federaffione')
