@@ -30,3 +30,10 @@ test('Test Zs', (t) => {
 
     t.equal(jovanotti('federazione'), 'federaffione')
 })
+
+test('Test long phrase', (t) => {
+    t.plan(2)
+
+    t.equal(jovanotti('io lo so che non sono solo anche quando sono solo'), 'io lo fo che non fono folo anche quando fono folo')
+    t.equal(jovanotti('Mi dispererebbe se non ti trovassi a Sassari passando per Sassuolo'), 'Mi difpererebbe fe non ti trovaffi a Faffari paffando per Faffuolo')
+})
