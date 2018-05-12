@@ -46,3 +46,9 @@ test('Test German', (t) => {
         'In German orthography, the grapheme ff, called Efffett or fcharfef F, in Englifh "fharp F", reprefentf the [f] phoneme in Ftandard German'
     )
 })
+
+test('French phrase', (t) => {
+    t.plan(1)
+
+    t.equal(jovanotti('Salut! Ça va?'), 'Falut! Fa va?')
+})
