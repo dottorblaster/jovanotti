@@ -38,6 +38,15 @@ test('Test long phrase', (t) => {
     t.equal(jovanotti('Mi dispererebbe se non ti trovassi a Sassari passando per Sassuolo'), 'Mi difpererebbe fe non ti trovaffi a Faffari paffando per Faffuolo')
 })
 
+test('Test German', (t) => {
+    t.plan(1)
+
+    t.equal(
+        jovanotti('In German orthography, the grapheme ß, called Eszett or scharfes S, in English "sharp S", represents the [s] phoneme in Standard German'), 
+        'In German orthography, the grapheme ff, called Efffett or fcharfef F, in Englifh "fharp F", reprefentf the [f] phoneme in Ftandard German'
+    )
+})
+
 test('French phrase', (t) => {
     t.plan(1)
 
