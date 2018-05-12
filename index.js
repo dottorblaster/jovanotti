@@ -8,4 +8,5 @@ module.exports = function(payload) {
         .replace(/S/g, 'F')
         .replace(/z/g,'ff')
         .replace(/Z/g,'FF')
+        .replace(/ß/g,'ff')
 }
